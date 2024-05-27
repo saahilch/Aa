@@ -2,14 +2,14 @@ import React, { Component } from 'react'
 import UpdatedComonent from './withCounter'
 //When Mouse Points to the word it automatically increments
  class HouverCounter extends Component {
-    constructor(props) {
-        super(props)
+    // constructor(props) {
+    //     super(props)
       
-        this.state = {
-          count : 0
+    //     this.state = {
+    //       count : 0
            
-        }
-      }
+    //     }
+    //   }
       incrementCount =()=>{
           this.setState(prevState=>{
               return { count: prevState.count + 1 }

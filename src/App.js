@@ -23,15 +23,31 @@ import './App.css'
 // import Hero from "./Components/Hero";
 // import ErrorBoundry from "./ErrorBoundry";
 import Clickcounter from "./Components/Clickcounter";
-import HouverCounter from "./Components/HouverCounter";
-import User from "./Components/User";
+// import HouverCounter from "./Components/HouverCounter";
+// import User from "./Components/User";
+import Cunter from "./Components/Cunter";
+import { UserProvider } from "./Components/UserContext";
+//import ComponentC from "./Components/ComponentC";
+import ComponentD from "./Components/ComponentD";
 class App extends Component{
   render(){
     return(
       <div className="App">
-        <Clickcounter/>
+<UserProvider value='sahil'>
+<ComponentD/>
+
+</UserProvider>
+
+
+        {/* Here we Use Render prop pattern childern porp pattern */}
+        < Cunter render={(count,incrementCount)=>(
+          <Clickcounter count={count}incrementCount={incrementCount}/>
+        )}/>
+
+
+        {/* <Clickcounter/>
         <HouverCounter/>
-        <User name={(isLoggedin)=>isLoggedin ?'Sahil':'Guest'}/>
+        <User name={(isLoggedin)=>isLoggedin ?'Sahil':'Guest'}/> */}
         {/* <ErrorBoundry>
         <Hero heroName='Batman'/>
         <Hero heroName='Superman'/>

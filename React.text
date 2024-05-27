@@ -187,7 +187,21 @@ is thrown.
     compoenent
     technique for sharing code between react compoenent using a props whoes value is a function
 
+    React Context--
+    suppose we have multiple components like A B C D F & we have to get data from only 
+    A C & F first wee need to pass props from evry component from A to F to ovoid these process 
+    cntext is comes into picture.
 
+    Context provides way to pass data through the compoenent tree
+    without having to pass props dwon manully at every level.
+
+    there are 3 steps to use Context
+    1- craete Context
+    2- wrap it into parent compoenent
+    3- pass props
+     you can set default vale into compoenent.if compoenent doses not have matching provoder then use default content
+
+    in return wrap evry compoenent 
                         
      
                      To install bootstrap in project use cmd 
