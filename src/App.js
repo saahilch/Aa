@@ -24,12 +24,14 @@ import './App.css'
 // import ErrorBoundry from "./ErrorBoundry";
 import Clickcounter from "./Components/Clickcounter";
 import HouverCounter from "./Components/HouverCounter";
+import User from "./Components/User";
 class App extends Component{
   render(){
     return(
       <div className="App">
         <Clickcounter/>
         <HouverCounter/>
+        <User name={(isLoggedin)=>isLoggedin ?'Sahil':'Guest'}/>
         {/* <ErrorBoundry>
         <Hero heroName='Batman'/>
         <Hero heroName='Superman'/>

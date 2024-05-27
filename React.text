@@ -180,6 +180,13 @@ is thrown.
     it is use to share common funcationality between components.
     it is pattern which is use old component & create new component. 
     that component is called enhance component.
+    Use to Reuse The Code & Component.
+
+    Render porop Method..
+    These is another method which is use to pass propersties from one component to another 
+    compoenent
+    technique for sharing code between react compoenent using a props whoes value is a function
+
 
                         
      

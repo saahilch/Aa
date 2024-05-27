@@ -18,8 +18,8 @@ import UpdatedComonent from './withCounter'
   render() {
     const {count}=this.state
     return (
-      
-        <h2 onMouseOver={this.incrementCount}>Hoverd {count} Times </h2>
+      <button onClick={this.incrementCount}>{this.props.name}Clicked{count}thims`</button>
+        
       
     )
   }
