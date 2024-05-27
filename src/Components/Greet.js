@@ -7,7 +7,7 @@ const Greet =(props)=>{
     return( 
 <div>
     <h1>
-       {/* To use Props Simpy pass here by children proerty name*/} 
+       {/* To use Props.. Simply pass here by children proerty name*/} 
     Hellow {props.name} a.k.a {props.heroName}
     </h1>
 {props.children }</div>
