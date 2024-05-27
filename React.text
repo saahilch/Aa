@@ -176,6 +176,10 @@ GetDerivedStateFromUser & ComponentDidCatch beomes Error Boundry.
 The Static method getDerivedFromErrorState Method is use to render tha fall back UI after the error
 is thrown.
 
+--Higher Order Components..
+    it is use to share common funcationality between components.
+    it is pattern which is use old component & create new component. 
+    that component is called enhance component.
 
                         
      

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import UpdatedComonent from './withCounter'
 //When Mouse Points to the word it automatically increments
  class HouverCounter extends Component {
     constructor(props) {
@@ -24,4 +25,4 @@ import React, { Component } from 'react'
   }
 }
 
-export default HouverCounter
+export default UpdatedComonent( HouverCounter)
