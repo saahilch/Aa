@@ -1,0 +1,187 @@
+What is REACT..?
+Basically Recat is Open Source Java Script Libaray.By Using React We Can Develop Single Page Applications.
+React is java script libaray it focous on doing the thing at a time it work on on task at a time. due to these 
+react has very fast & gives proper & consise way result.
+it focuses building exat user interface thats why it focous on one task at a time.
+React is component based archi. like wise it brakes a task into different forms that forms called components.
+it divides a Whole Archi. into parts like heder,navbar,sidenavbar,main content etc.
+
+--Declarative..
+Declarative tells the react what you want & react will build exactly.
+as it a UI so it implemet good algorithm inexplicit way.
+
+What is npx & npm
+npx is nothing but java an node package xml.
+npx is runs on java script extension.
+ npm is nothing but node pakage manager it installs reacts funcationality globally.
+
+-Components..-
+It is buildeing block of recat.
+It represents  part of UI which is Resuable it can be reuse whenever it need 
+it can ve saves by using .js or .jsx extension.
+
+There are two type of components
+1-)stateless functional 
+it is js () which returns only UI
+it can be recives props as arguents & returns arguments returns dom elements.
+
+2-)Statefull class component
+More feature-rich, use state and lifecycle methods.
+it is ES6 fetured it returns method in html.
+it stores infomation as private to userState.
+
+---Hooks....-
+Imagine you're playing with building blocks, and each block has a special button that makes it do something cool, 
+like light up or make a sound. These buttons make it easier to add fun features to your blocks without needing to rebuild them from scratch.
+In React, which is a tool for building web pages, hooks are like those special buttons. 
+They let you add cool features to your web pages without having to rewrite everything.
+--useState
+--useEffects
+hooks in React are special tools that make it easier to add and manage features on your web page, 
+just like those buttons make your building blocks more fun and interactive.
+
+--JSX--..
+Java Script XML
+Basically JSX is a Java Script syntax 
+we can write code in  element/ component with the help of jsx.
+jsx makes react code very simpler & easier.
+jsx ultimately transpiles to pure js which understood by browser.
+class  can be replaced by className.
+camel casing index can be changed by onclick to onClick.
+React to describe what the UI should look like. 
+It allows you to write HTML-like code within JavaScript, 
+making it easier to create and visualize the structure of your components.
+
+
+--Propes--.
+properties it allows component to perform in dynamic way.it reduces code size.
+propes are immutable its value cant be change.
+it uses as child component & make it more resuable & read only.
+
+--State--..
+States are managed in component.
+basically variables are decalred in function body states are mutables.
+states can be accessed by using hooks as functionla component.
+state is nothing but an object that privately maintain component & state can be used  in constructure using this keyword & arrow ().
+
+--setState--
+bascially setState are asynchronous.
+setState is a crucial method in React for managing and updating the state of a component. 
+State represents the dynamic data in a component that can change over time. 
+By using setState, you can update the state and trigger a re-render of the component to reflect those changes in the UI
+
+Initial State:
+State is typically initialized in the constructor of a class component or directly within a functional component using the useState hook.
+
+
+Updating State:
+The setState method is used to update the state. It schedules an update to the component's state and tells React that 
+this component and its children need to be re-rendered  with the updated state.
+
+
+Event State---
+Event State mens mouce click mouce over , onclick
+event state" refers to the state of a component that is typically updated in response to user events, such as clicks, 
+form submissions, or other interactions. 
+React uses a declarative approach to manage the state of UI components, making it easier to keep the UI in sync with the underlying state.
+Here's a basic overview of how you can manage event state in React:
+
+Initialize State: Use the useState hook to initialize state in a functional component.
+Update State: Create event handler functions that update the state when user interactions occur.
+Render State: Use the state to determine what to render.
+
+--Ref--
+ref (short for reference) is a special attribute that you can attach to React elements to get direct access to the DOM element or a React component instance. 
+Refs provide a way to interact with the DOM directly, which can be useful in certain situations where you need to manage focus, 
+select text, trigger animations, or integrate with third-party DOM libraries.
+
+Refs in React provide a powerful way to interact with the DOM directly, 
+allowing you to manage focus, trigger animations, and integrate with third-party libraries. 
+However, they should be used sparingly and only when absolutely necessary, as they can complicate your component logic and make it harder to maintain. 
+By understanding when and how to use refs effectively, you can take full advantage of their capabilities in your React applications.
+
+
+Using useRef() (Functional Components):
+The useRef hook is used in functional components to create refs.
+
+Accessing Refs
+Direct DOM Manipulation: 
+Refs can be used to perform operations that are difficult or impossible to do declaratively in React
+
+When to Use Refs
+Managing Focus: 
+To set focus on an input element when a component mounts or when a user interacts with your UI.
+Triggering Animations:
+To trigger animations or transitions imperatively.
+Integrating with Third-Party Libraries: 
+To integrate with non-React libraries that require direct DOM manipulation.
+Measuring DOM Elements: 
+To measure the size or position of DOM elements.
+
+Refs in React provide a powerful way to interact with the DOM directly, 
+allowing you to manage focus, trigger animations, and integrate with third-party libraries. 
+However, they should be used sparingly and only when absolutely necessary, as they can complicate your component logic and make it harder to maintain. 
+By understanding when and how to use refs effectively, you can take full advantage of their capabilities in your React applications.
+
+
+Ract Portal---
+React portals provide a way to render children into a DOM node that exists outside the DOM hierarchy of the parent component.
+This can be particularly useful for modals, tooltips, or any other component that needs to be rendered outside of the usual parent hierarchy.
+
+Create the Portal Root Element:
+First, ensure you have a root element in your HTML file where you want to render the portal.
+Typically, you would add this to your public/index.html file.
+
+
+Forwarding Refs--
+'ref 'in React  is basically used to access HTML nodes, in the previous we learned that refs can also 
+be used to access components in React, in a similar way we did the HTML element
+is a technique use to pass automatically ref into a component.
+orwarding refs in React is a technique for passing a ref through a component to one of its children. 
+This is useful when you need to access a DOM element or a child component's instance from a parent component. 
+React provides the React.forwardRef API to handle this.
+use to pass directly nativ ecomponen into child component.
+
+-- Why Use Forwarded Refs:
+Forwarding refs is particularly useful when building reusable components, 
+higher-order components, or components that abstract other UI elements
+
+-- Understanding React Portals
+React portals provide a way to render children into a DOM node that exists outside the DOM hierarchy of the parent component. 
+This is particularly useful for scenarios like modals, tooltips, or any other component that needs to be rendered outside of the 
+usual parent component's DOM hierarchy.
+
+-- When to Use Portals
+React portals are particularly useful when 
+You need to render a component outside of its parent hierarchy (e.g., modals, tooltips, dialogs).
+You want to avoid CSS conflicts and ensure components are rendered in a specific part of the DOM (e.g., popups, notifications).
+This setup demonstrates how to use React portals to create a modal component in a React application.
+You can further customize and extend this pattern to fit your specific use case.
+
+
+-- Error Boundaries in React --
+Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, 
+and display a fallback UI instead of crashing the whole app.
+
+-- Usage
+Error boundaries should be used around components that may throw errors. 
+They do not catch errors in:
+- Event handlers
+- Asynchronous code (e.g., setTimeout or requestAnimationFrame callbacks)
+- Server-side rendering
+- Errors thrown in the error boundary itself (use nested boundaries for this)
+
+Basically Error Boundry is an class component that implement either or both life cycle methods
+GetDerivedStateFromUser & ComponentDidCatch beomes Error Boundry.
+The Static method getDerivedFromErrorState Method is use to render tha fall back UI after the error
+is thrown.
+
+
+                        
+     
+                     To install bootstrap in project use cmd 
+                        npm install bootstrap reactstrap
+
+                        AXIOS are help to call url in react app 
+                        Basically AXIOS are use to fetch HTTP  from browser.
+                        AXIOS are use to interact with browsers API
