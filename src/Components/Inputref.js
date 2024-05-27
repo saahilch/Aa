@@ -6,6 +6,7 @@ import React, { Component } from 'react'
     this.inputref=React.createRef()
     
     }
+    // Lets Craete A Function to get current focous it will automatically set cursor to main
     focousIntput(){
         this.inputref.current.focus()
     }
