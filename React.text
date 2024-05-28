@@ -221,7 +221,8 @@ is thrown.
          hooks avod this keyword
          
          useState -
-         useEffects -
+         useEffects -these is use to perform side effect in functional compoenent
+         it is a close replacement for ComponentDidMount,Update & WillMount
 
                         
      
