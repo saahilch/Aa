@@ -218,7 +218,10 @@ is thrown.
         functional components, making them more powerful and versatile.
          use to featch data i ComponentDidMount  ComponentDidUPdate
          it brakes big functions into small functions.
-         hooks avod this keyword.
+         hooks avod this keyword
+         
+         useState -
+         useEffects -
 
                         
      
