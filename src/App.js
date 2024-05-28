@@ -22,27 +22,31 @@ import './App.css'
 // import FRinput from "./Components/FRinput";
 // import Hero from "./Components/Hero";
 // import ErrorBoundry from "./ErrorBoundry";
-import Clickcounter from "./Components/Clickcounter";
+// import Clickcounter from "./Components/Clickcounter";
 // import HouverCounter from "./Components/HouverCounter";
 // import User from "./Components/User";
-import Cunter from "./Components/Cunter";
-import { UserProvider } from "./Components/UserContext";
+// import Cunter from "./Components/Cunter";
+// import { UserProvider } from "./Components/UserContext";
 //import ComponentC from "./Components/ComponentC";
-import ComponentD from "./Components/ComponentD";
+// import ComponentD from "./Components/ComponentD";
+ import PostList from "./Components/PostList";
+import PostForm from "./Components/PostForm";
 class App extends Component{
   render(){
     return(
       <div className="App">
-<UserProvider value='sahil'>
-<ComponentD/>
+        <PostForm/>
+        {/* <PostList/> */}
+{/* // <UserProvider value='sahil'>
+// <ComponentD/>
 
-</UserProvider>
+// </UserProvider> */}
 
 
-        {/* Here we Use Render prop pattern childern porp pattern */}
-        < Cunter render={(count,incrementCount)=>(
+        {/* Here we Use Render prop pattern childern porp pattern 
+         < Cunter render={(count,incrementCount)=>( 
           <Clickcounter count={count}incrementCount={incrementCount}/>
-        )}/>
+         )}/> */}
 
 
         {/* <Clickcounter/>

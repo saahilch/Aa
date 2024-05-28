@@ -202,6 +202,13 @@ is thrown.
      you can set default vale into compoenent.if compoenent doses not have matching provoder then use default content
 
     in return wrap evry compoenent 
+
+
+    --React & HTTP--
+    React doses not itself to conect or pass the request to server. 
+    for that use AXIOS.
+    
+
                         
      
                      To install bootstrap in project use cmd 
