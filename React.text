@@ -207,7 +207,18 @@ is thrown.
     --React & HTTP--
     React doses not itself to conect or pass the request to server. 
     for that use AXIOS.
-    
+
+    --Ract Hooks---
+
+        hooks are new feture form 16.8 allows to use ract feature.
+        Hooks in React are used to manage state and side effects in 
+        functional components. Before hooks were introduced in React 
+        16.8, state management and lifecycle methods were only available 
+        in class components. Hooks allow you to use these features in 
+        functional components, making them more powerful and versatile.
+         use to featch data i ComponentDidMount  ComponentDidUPdate
+         it brakes big functions into small functions.
+         hooks avod this keyword.
 
                         
      
