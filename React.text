@@ -219,10 +219,12 @@ is thrown.
          use to featch data i ComponentDidMount  ComponentDidUPdate
          it brakes big functions into small functions.
          hooks avod this keyword
-         
+          
          useState -
          useEffects -these is use to perform side effect in functional compoenent
          it is a close replacement for ComponentDidMount,Update & WillMount
+
+        Conditionaly Run Effects --
 
                         
      
