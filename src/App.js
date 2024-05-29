@@ -27,15 +27,17 @@ import './App.css'
 // import User from "./Components/User";
 // import Cunter from "./Components/Cunter";
 // import { UserProvider } from "./Components/UserContext";
-//import ComponentC from "./Components/ComponentC";
+// import ComponentC from "./Components/ComponentC";
 // import ComponentD from "./Components/ComponentD";
- import PostList from "./Components/PostList";
-import PostForm from "./Components/PostForm";
+// import PostList from "./Components/PostList";
+// import PostForm from "./Components/PostForm";
+import HookMouce from "./Components/HookMouce";
 class App extends Component{
   render(){
     return(
       <div className="App">
-        <PostForm/>
+        <HookMouce/>
+        {/* <PostForm/> */}
         {/* <PostList/> */}
 {/* // <UserProvider value='sahil'>
 // <ComponentD/>
