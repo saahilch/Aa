@@ -27,7 +27,7 @@ import './App.css'
 // import User from "./Components/User";
 // import Cunter from "./Components/Cunter";
 // import { UserProvider } from "./Components/UserContext";
-// import ComponentC from "./Components/ComponentC";
+ import ComponentC from "./Components/ComponentC";
 // import ComponentD from "./Components/ComponentD";
 // import PostList from "./Components/PostList";
 // import PostForm from "./Components/PostForm";
@@ -58,7 +58,7 @@ class App extends Component{
         {/* <FRinput/> */}
         {/* <FocusInput/> */}
         {/* <Refsdemo/> */}
-       {/* <PureComp/> */}
+        {/* <PureComp/> */}
         {/* <Table/> */}
         {/* <Fragment/> */}
         {/* <Form/> */}
