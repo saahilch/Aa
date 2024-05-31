@@ -116,7 +116,7 @@ To trigger animations or transitions imperatively.
 Integrating with Third-Party Libraries: 
 To integrate with non-React libraries that require direct DOM manipulation.
 Measuring DOM Elements: 
-To measure the size or position of DOM elements.
+To measure the size or position of DOM elements...
 
 Refs in React provide a powerful way to interact with the DOM directly, 
 allowing you to manage focus, trigger animations, and integrate with third-party libraries. 
