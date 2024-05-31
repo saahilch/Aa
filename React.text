@@ -229,7 +229,7 @@ is thrown.
          useEffects -these is use to perform side effect in functional compoenent
          it is a close replacement for ComponentDidMount,Update & WillMount
 
-        Conditionaly Run Effects -- [78]
+        Conditionaly Run Effects -- 
 
         useEffects--
         it is use to clean up the code initially we use to call it in
