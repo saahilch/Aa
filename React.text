@@ -218,8 +218,13 @@ is thrown.
         functional components, making them more powerful and versatile.
          use to featch data i ComponentDidMount  ComponentDidUPdate
          it brakes big functions into small functions.
-         hooks avod this keyword
+         hooks avod this keyword.
+        bascially hooks are use to remove this keyword.
+        it is special function  that can manage state & behaviour & it handels 
+        the side effects or it acccepts context.
+
           
+        
          useState -
          useEffects -these is use to perform side effect in functional compoenent
          it is a close replacement for ComponentDidMount,Update & WillMount
@@ -229,6 +234,8 @@ is thrown.
         useEffects--
         it is use to clean up the code initially we use to call it in
         ( ) within ( ) to avoid the clitc in code.
+
+
 
         How To Fetch Data From API--
         use AXIOS  install 1st 
