@@ -237,6 +237,8 @@ is thrown.
 
         Uses of Custome Hooks-Reuse stateful logic across multiple components
 
+        Render--
+        
         How To Fetch Data From API--
         use AXIOS  install 1st 
         use hooks to fetch data
