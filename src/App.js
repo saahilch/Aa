@@ -39,19 +39,14 @@ class App extends Component{
         <HookMouce/>
         {/* <PostForm/> */}
         {/* <PostList/> */}
-{/* // <UserProvider value='sahil'>
-// <ComponentD/>
-
-// </UserProvider> */}
-
-
+        {/* // <UserProvider value='sahil'>
+        // <ComponentD/>
+        // </UserProvider> */}
         {/* Here we Use Render prop pattern childern porp pattern 
          < Cunter render={(count,incrementCount)=>( 
           <Clickcounter count={count}incrementCount={incrementCount}/>
          )}/> */}
-
-
-        {/* <Clickcounter/>
+         {/* <Clickcounter/>
         <HouverCounter/>
         <User name={(isLoggedin)=>isLoggedin ?'Sahil':'Guest'}/> */}
         {/* <ErrorBoundry>
@@ -62,8 +57,8 @@ class App extends Component{
         </ErrorBoundry> */}
         {/* <FRinput/> */}
         {/* <FocusInput/> */}
-         {/* <Refsdemo/> */}
-         {/* <PureComp/> */}
+        {/* <Refsdemo/> */}
+       {/* <PureComp/> */}
         {/* <Table/> */}
         {/* <Fragment/> */}
         {/* <Form/> */}
@@ -78,10 +73,9 @@ class App extends Component{
         These Is Sunnys para It Shows How He Strong
         </p></Greet>
         <Greet name="SAHIl" heroName="Bobby">
-          <button>Action</button></Greet>
+        <button>Action</button></Greet>
         <Greet name="Omakr" heroName="?"/>
         <Greet name="   "/>
-
         <Hellow/> */}
      
             </div>
